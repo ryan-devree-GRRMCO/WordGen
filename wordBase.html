@@ -1,0 +1,25 @@
+<!-- wordBase.html AND wordBase.js ARE USED FOR Y LETTER WORDS, USING ALL LETTERS, WITH NO KNOWN LETTERS (XYZ, USING ANY COMBO OF XYZ) -->
+
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Word Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="word.css">
+    </head>
+    <body>
+        <br><br>
+        Enter the letters that can be chosen
+        <input id = "letters" type = "text">
+        <button id="lettersButton" onclick = "letters2Array('#letters')">Enter</button><br><br>
+
+        The "words", given letters available and number of letters in a "word", are:
+        <p id = "demo2"></p>
+        <br><br>
+        
+        <script src="wordBase.js"></script>
+    </body>
+</html>

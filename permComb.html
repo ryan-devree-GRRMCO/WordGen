@@ -1,0 +1,26 @@
+            <!DOCTYPE html>
+
+            <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title>Word Generator - All Options</title>
+                <meta name="description" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="permComb.css">
+            </head>
+            <body>
+                COMBINATIONS
+                <br><br>
+                Enter the letters that can be chosen for combinations
+                <input id = "combLet" type = "text">
+                <button id="lettersButton" onclick = "letters2Array('#letters')">Enter</button><br><br>
+        
+                <p>The "words", given letters available and using all combinations of letters, are:</p>
+        
+                <div class = "results">
+                    <p id = "demo2"></p>
+                </div>
+                
+                <script src="permComb.js"></script>
+            </body>
+        </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Word Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="word.css">
+    </head>
+    <body>
+        <br><br>
+        Enter number of characters per word
+        <input id = "numChar" type = "text">
+        <p id = "demo"></p>
+        <br><br>
+
+        Enter the letters that can be chosen (without commas)
+        <input id = "letters" type = "text">
+        <button id="lettersButton" onclick = "letters2Array('#letters')">Enter</button><br><br>
+
+        Are there any known characters?  If there are, enter number of known letters.  Otherwise, skip this part.
+        <input id = "known" type = "text">
+        <button id = "knownLetters" onclick = "compare(nameList)">Submit</button><br><br><br>
+
+        The "words", given letters available and number of letters in a "word", are:
+        <p id = "demo2"></p>
+        <br><br>
+        
+        <script src="word2.js"></script>
+    </body>
+</html>
